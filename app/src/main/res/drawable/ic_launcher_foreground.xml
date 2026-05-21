@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- Inner Background Layer (Dark Purple for solid depth) -->
+  <path android:fillColor="#4B0082" android:pathData="M0,0 h108 v108 h-108 z"/>
+  <!-- Circular Base (Gradient) representing the bubble -->
+  <path
+      android:fillColor="#8A2BE2"
+      android:pathData="M 54,20 C 35.2,20 20,35.2 20,54 C 20,72.8 35.2,88 54,88 C 72.8,88 88,72.8 88,54 C 88,35.2 72.8,20 54,20 Z" />
+  <!-- Small tail to make it a chat bubble -->
+  <path
+      android:fillColor="#8A2BE2"
+      android:pathData="M 77.5,77.5 L 90,90 L 70,80 Z" />
+  <!-- RSS Icon (White arcs) inside the bubble -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M 38,62 A 6,6 0 1,1 38,74 A 6,6 0 1,1 38,62 Z M 32,48 A 24,24 0 0,1 56,72 L 48,72 A 16,16 0 0,0 32,56 L 32,48 Z M 32,34 A 38,38 0 0,1 70,72 L 62,72 A 30,30 0 0,0 32,42 L 32,34 Z" />
+</vector>
